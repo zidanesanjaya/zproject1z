@@ -15,12 +15,12 @@
     width: 250px;
 }
 
-.container {
+.container1 {
     display: block;
-    max-width: 900px;
+    width: 100px;
     margin: auto;
-    padding: 100px;
-    height: 100%;
+    padding: 10px;
+    height: 50px;
     outline: none;
   }
   
@@ -55,7 +55,7 @@
     margin: 1em;
     margin-right: -4.5em;
     background: #fff;
-    color: #6A5D4F;
+    color: #000000;
     font-size: 1em;
     font-weight: 600;
     padding: 0px;
@@ -68,7 +68,7 @@
   }
   input:focus {
     outline: none;
-    box-shadow: 0 -1px 1px rgba(255, 255, 255, 0.25), 0 1px 5px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 -1px 1px rgba(255, 255, 255, 0.25), 0 1px 5px rgba(0, 0, 0, 0.15); */
   }
   
   .button {
@@ -82,17 +82,17 @@
     /* background: #6A5D4F; */
     text-align: center;
     font-size: 2em;
-    color: #FDF6E3;
-    border-radius: 50%;
-    box-shadow: 0 -1px 1px rgba(255, 255, 255, 0.25), 0 1px 1px rgba(0, 0, 0, 0.25);
-    text-shadow: 0 -2px 1px rgba(0, 0, 0, 0.3);
+    color: #000000;
+    /* border-radius: 50%; */
+    /* box-shadow: 0 -1px 1px rgba(255, 255, 255, 0.25), 0 1px 1px rgba(0, 0, 0, 0.25); */
+    /* text-shadow: 0 -2px 1px rgba(0, 0, 0, 0.3); */
   }
   .button:active {
     border: 0 !important;
     text-shadow: 0 0 0;
   }
   .button i {
-    font-size: 85%;
+    font-size: 80%;
   }
 
 /* .search {
